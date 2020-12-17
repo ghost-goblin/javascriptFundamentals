@@ -57,6 +57,7 @@ Adding two numbers, will return the sum, but adding a number and a string will r
 4. Logical
 
 ## 8. What is the difference between == and ===?
+`==` in JavaScript is used for comparing two variables, but it ignores the datatype of variable. `===` is used for comparing two variables, but this operator also checks datatype and compares two values.
 
 ## 9. What are operator precedence values?
 
