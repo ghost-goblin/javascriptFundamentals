@@ -60,6 +60,7 @@ Adding two numbers, will return the sum, but adding a number and a string will r
 `==` in JavaScript is used for comparing two variables, but it ignores the datatype of variable. `===` is used for comparing two variables, but this operator also checks datatype and compares two values.
 
 ## 9. What are operator precedence values?
+This [MDN doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence) explains how operators are parsed concerning each other.
 
 ## 10. What are the increment/decrement operators?
 The increment and decrement operators in JavaScript will add one (+1) or subtract one (-1), respectively, to their operand, and then return a value. This [Codeburst lesson](https://codeburst.io/javascript-increment-and-decrement-8c223858d5ed) explains that using `++` or `--` prior to our variable, the operation executes and adds/subtracts 1 prior to returning.
