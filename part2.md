@@ -14,7 +14,7 @@
 Data types that are known as primitive values in JavaScript are numbers, strings, booleans, null, undefined. Objects such as functions and arrays are referred to as non-primitive values. The fundamental difference between primitives and non-primitives is that primitives are immutable and non-primitives are mutable.
 Primitives are known as being immutable data types because there is no way to change a primitive value once it gets created.
 
-3. What is the difference between single, double, and backtick quotes for strings?
+## 3. What is the difference between single, double, and backtick quotes for strings?
 The backtick quote allows string templating
 ```js
 var value = 4;
