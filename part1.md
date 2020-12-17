@@ -49,6 +49,10 @@ A **unary** operator requires a single operand, either before or after the opera
 ## 6. What is concatenation and what happens when you add numbers and strings together?
 
 ## 7. What are the different types of operators in JavaScript?
+1. Arithmetic
+2. Comparison
+3. Assignment
+4. Logical
 
 ## 8. What is the difference between == and ===?
 
