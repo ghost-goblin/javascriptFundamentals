@@ -10,7 +10,10 @@
 7. `object` for more complex data structures.
 8. `symbol` for unique identifiers.
 
-2. Which data type is NOT primitive?
+## 2. Which data type is NOT primitive?
+Data types that are known as primitive values in JavaScript are numbers, strings, booleans, null, undefined. Objects such as functions and arrays are referred to as non-primitive values. The fundamental difference between primitives and non-primitives is that primitives are immutable and non-primitives are mutable.
+Primitives are known as being immutable data types because there is no way to change a primitive value once it gets created.
+
 3. What is the difference between single, double, and backtick quotes for strings?
 4. Which type of quote lets you embed variables/expressions into a string?
 5. How do you embed variables/expressions into a string?
