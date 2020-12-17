@@ -68,7 +68,7 @@ This [MDN doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 The increment and decrement operators in JavaScript will add one (+1) or subtract one (-1), respectively, to their operand, and then return a value. This [Codeburst lesson](https://codeburst.io/javascript-increment-and-decrement-8c223858d5ed) explains that using `++` or `--` prior to our variable, the operation executes and adds/subtracts 1 prior to returning.
 
 ## 11. What is the difference between prefixing and post-fixing them?
-Another useful post on [Hacker Noon](https://hackernoon.com/javascript-back-to-basics-prefix-vs-postfix-8da5256223d2) about prefix vs. postfix
+Another useful post on [Hacker Noon](https://hackernoon.com/javascript-back-to-basics-prefix-vs-postfix-8da5256223d2) about prefix vs. postfix and the difference between them.
 
 ## 12. What are assignment operators?
 Assignment operators assign values to JavaScript variables. [W3Schools](https://www.w3schools.com/js/js_assignment.asp) provides a list of the various assignment operator that can be used.
