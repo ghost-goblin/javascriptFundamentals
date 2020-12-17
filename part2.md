@@ -1,7 +1,7 @@
 # JavaScript Fundamentals - [Part 2](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-2) 
 
-What are the eight data types of javascript?
-Which data type is NOT primitive?
+1. What are the eight data types of javascript?
+2. Which data type is NOT primitive?
 What is the difference between single, double, and backtick quotes for strings?
 Which type of quote lets you embed variables/expressions into a string?
 How do you embed variables/expressions into a string?
