@@ -59,5 +59,7 @@ Another useful post on [Hacker Noon](https://hackernoon.com/javascript-back-to-b
 ## 12. What are assignment operators?
 
 ## 13. What is the **Unary +** Operator?
-A **binary** operator requires two operands, one before the operator and one after the operator: `operand1` `operator` `operand2` e.g. `3 + 4` or `x * y`.
-A **unary** operator requires a single operand, either before or after the operator: `operator` `operand` OR `operand` `operator` e.g. `x++` or `++x`.
+A **binary** operator requires two operands, one before the operator and one after the operator:
+`operand1` `operator` `operand2` e.g. `3 + 4` or `x * y`.
+A **unary** operator requires a single operand, either before or after the operator:
+`operator` `operand` OR `operand` `operator` e.g. `x++` or `++x`.
