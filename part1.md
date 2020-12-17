@@ -54,6 +54,7 @@ Check out this [guide on MDN web docs](https://developer.mozilla.org/en-US/docs/
 ## 10. What are the increment/decrement operators?
 
 ## 11. What is the difference between prefixing and post-fixing them?
+Another useful post on [Hacker Noon](https://hackernoon.com/javascript-back-to-basics-prefix-vs-postfix-8da5256223d2) about prefix vs. postfix
 
 ## 12. What are assignment operators?
 
