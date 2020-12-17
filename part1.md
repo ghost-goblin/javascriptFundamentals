@@ -47,8 +47,7 @@ A **unary** operator requires a single operand, either before or after the opera
 
 
 ## 6. What is concatenation and what happens when you add numbers and strings together?
-Concatenation is the process of appending one string to the end of another string.
-There are a few methods of concatenating strings in JavaScript. You can check out this [tutorial](https://masteringjs.io/tutorials/fundamentals/string-concat) on the 3 ways to concatenate strings in JavaScript.
+Concatenation is the process of appending one string to the end of another string. You can check out this [tutorial](https://masteringjs.io/tutorials/fundamentals/string-concat) on the 3 ways to concatenate strings in JavaScript.
 Adding two numbers, will return the sum, but adding a number and a string will return a string.
 
 ## 7. What are the different types of operators in JavaScript?
