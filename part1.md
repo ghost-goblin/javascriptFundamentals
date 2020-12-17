@@ -51,10 +51,12 @@ Concatenation is the process of appending one string to the end of another strin
 Adding two numbers, will return the sum, but adding a number and a string will return a string.
 
 ## 7. What are the different types of operators in JavaScript?
-1. Arithmetic
-2. Comparison
-3. Assignment
-4. Logical
+1. Arithmetic Operators e.g. `20%10 = 0` or `let a=10; a++; Now a = 11`
+2. Comparison (Relational) Operators e.g. `20!==20 = false`
+3. Bitwise Operators e.g. `(10==20 & 20==33) = false`
+4. Logical Operators e.g. `(10==20 && 20==33) = false`
+5. Assignment Operators e.g. `var a=10; a+=20; Now a = 30`
+6. Special Operators e.g. `(?:)	Conditional Ternary Operator returns value based on the condition. It is like if-else.`
 
 ## 8. What is the difference between == and ===?
 `==` in JavaScript is used for comparing two variables, but it ignores the datatype of variable. `===` is used for comparing two variables, but this operator also checks datatype and compares two values.
