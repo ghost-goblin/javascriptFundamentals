@@ -1,4 +1,4 @@
-# JavaScript Fundamentals - Part 1
+# JavaScript Fundamentals - [Part 1](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-1) 
 
 ## 1. How do you declare a variable?
 A _variable_ is a storage container for data.
