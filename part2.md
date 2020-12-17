@@ -15,6 +15,11 @@ Data types that are known as primitive values in JavaScript are numbers, strings
 Primitives are known as being immutable data types because there is no way to change a primitive value once it gets created.
 
 3. What is the difference between single, double, and backtick quotes for strings?
+The backtick quote allows string templating
+```js
+var value = 4;
+var str = `text with a ${value}` // 'text with a 4'
+```
 4. Which type of quote lets you embed variables/expressions into a string?
 5. How do you embed variables/expressions into a string?
 6. How do you escape characters in a string?
