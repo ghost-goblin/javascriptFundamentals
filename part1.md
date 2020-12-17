@@ -40,7 +40,10 @@ x = 3;       // This will cause an error because x is not declared
 
 ## 5. What are operators, operands, and operations?
 Check out this [guide on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators) on expressions and operators.
-
+A **binary** operator requires two operands, one before the operator and one after the operator:
+`operand1` `operator` `operand2` e.g. `3 + 4` or `x * y`.
+A **unary** operator requires a single operand, either before or after the operator:
+`operator` `operand` OR `operand` `operator` e.g. `x++` or `++x`.
 
 
 ## 6. What is concatenation and what happens when you add numbers and strings together?
@@ -59,7 +62,3 @@ Another useful post on [Hacker Noon](https://hackernoon.com/javascript-back-to-b
 ## 12. What are assignment operators?
 
 ## 13. What is the **Unary +** Operator?
-A **binary** operator requires two operands, one before the operator and one after the operator:
-`operand1` `operator` `operand2` e.g. `3 + 4` or `x * y`.
-A **unary** operator requires a single operand, either before or after the operator:
-`operator` `operand` OR `operand` `operator` e.g. `x++` or `++x`.
