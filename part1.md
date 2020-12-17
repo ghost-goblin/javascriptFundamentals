@@ -9,7 +9,6 @@ message = 'Hello'; //store the string
 // or
 let message = 'Hello';
 ```
-> ⚠️ Declaring a variable twice triggers an error
 
 ## 2. What are three different ways to declare a variable?
 - `var`
@@ -22,9 +21,10 @@ JavaScript **hoists** the variable declarion to the top of the function block.
 - `let`provides **block-scoping**.
 - `const`is immutable and will throw an error if an attempt is made to change its value after it has been declared.
 
-[Here is a link to the Hacker Noon article on why we shouldn't use var anymore](https://medium.com/hackernoon/why-you-shouldnt-use-var-anymore-f109a58b9b70)
+Here is a link to the [Hacker Noon](https://medium.com/hackernoon/why-you-shouldnt-use-var-anymore-f109a58b9b70) article on why we shouldn't use var anymore
 
-4. What are the rules for naming variables?
+## 4. What are the rules for naming variables?
+- ⚠️ Declaring a variable twice triggers an error
 
 5. What are operators, operands, and operations?
 
