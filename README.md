@@ -4,22 +4,29 @@
 Hi everyone 👋 <br />
 I am current going throught the JS fundamentals section at the [The Odin Project](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-1) and thought it might be useful to document my learning.
 
-## Learning Outcomes
+## 1. How do you declare a variable?
+A _variable_ is a storage container for data.
 
-1. How do you declare a variable? A _variable_ is a storage container for data.
 ```js
 let message;
 message = 'Hello'; //store the string
-
+// or
 let message = 'Hello';
 ```
-⚠️ Declaring a variable twice triggers an error <br />
-2. What are three different ways to declare a variable?
+> ⚠️ Declaring a variable twice triggers an error
+
+## 2. What are three different ways to declare a variable?
 - `var`
 - `let`
 - `const`
 
-3. Which one should you use when?
+## 3. Which one should you use when?
+- `var`is **global-scoped** / **function-scoped** and declartions are processed when the _function or script starts_. This is called **hoisting**.
+JavaScript **hoists** the variable declarion to the top of the function block.
+- `let`provides **block-scoping**.
+- `const`is immutable and will throw an error if an attempt is made to change its value after it has been declared.
+
+[Here is a link to the Hacker Noon article on why we shouldn't use var anymore](https://medium.com/hackernoon/why-you-shouldnt-use-var-anymore-f109a58b9b70)
 
 4. What are the rules for naming variables?
 
