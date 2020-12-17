@@ -62,10 +62,13 @@ Adding two numbers, will return the sum, but adding a number and a string will r
 ## 9. What are operator precedence values?
 
 ## 10. What are the increment/decrement operators?
+The increment and decrement operators in JavaScript will add one (+1) or subtract one (-1), respectively, to their operand, and then return a value.
 
 ## 11. What is the difference between prefixing and post-fixing them?
 Another useful post on [Hacker Noon](https://hackernoon.com/javascript-back-to-basics-prefix-vs-postfix-8da5256223d2) about prefix vs. postfix
 
 ## 12. What are assignment operators?
+Assignment operators assign values to JavaScript variables. [W3Schools](https://www.w3schools.com/js/js_assignment.asp) provides a list of the various assignment operator that can be used.
 
 ## 13. What is the **Unary +** Operator?
+The unary plus operator precedes its operand and evaluates to its operand but attempts to convert it into a number, if it isn't already. Check out the [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus) for more information.
