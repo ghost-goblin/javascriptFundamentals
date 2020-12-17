@@ -21,7 +21,7 @@ JavaScript **hoists** the variable declarion to the top of the function block.
 - `let`provides **block-scoping**.
 - `const`is immutable and will throw an error if an attempt is made to change its value after it has been declared.
 
-Here is a link to the [Hacker Noon](https://medium.com/hackernoon/why-you-shouldnt-use-var-anymore-f109a58b9b70) on why we shouldn't use var anymore.
+Here is a link to [Hacker Noon](https://medium.com/hackernoon/why-you-shouldnt-use-var-anymore-f109a58b9b70) on why we shouldn't use var anymore.
 
 ## 4. What are the rules for naming variables?
 - ⚠️ Declaring a variable twice triggers an error
