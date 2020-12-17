@@ -29,6 +29,14 @@ Here is a link to the [Hacker Noon](https://medium.com/hackernoon/why-you-should
 - The first character must not be a digit
 - Case matters!
 - `let`, `class`, `return`, and `function` are reserved and cannot be used as variable names
+- When the name contains multiple words, **camelCase** is commonly used
+
+`"use strict";` defines that JavaScript code should be executed in "strict mode". Strict mode changes previously accepted _"bad syntax"_ into real errors.
+
+```js
+"use strict";
+x = 3;       // This will cause an error because x is not declared
+```
 
 5. What are operators, operands, and operations?
 
