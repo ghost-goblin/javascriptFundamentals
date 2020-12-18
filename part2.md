@@ -65,7 +65,7 @@ In JavaScript, a truthy value is a value that is considered true when encountere
 8. `NaN` - not a number
 
 ## 14. What is the syntax for an if/else conditional?
-Go over this [MDN document](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) to read about decision making in JsvsScript.
+Go over this [MDN document](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) to read about decision making in JavaScript.
 
 ## 15. What is the syntax for a switch statement?
 ```js
