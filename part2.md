@@ -11,7 +11,7 @@
 8. `symbol` for unique identifiers
 
 ## 2. Which data type is NOT primitive?
-Data types that are known as **primitive values** in JavaScript are **numbers**, **strings**, **booleans**, **null** and **undefined**. **Objects** such as **functions** and **arrays** are referred to as **non-primitive** values. The fundamental difference between primitives and non-primitives is that _primitives are immutable_ and _non-primitives are mutable_.
+Data types that are known as **primitive values** in JavaScript are **numbers**, **strings**, **booleans**, **null** and **undefined**. **Objects** such as **functions** and **arrays** are referred to as **non-primitive** values. The fundamental difference between primitives and non-primitives is that _primitives are immutable_ and _non-primitives are mutable_. Check out [this link](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) to read more about these data types.
 
 ## 3. What is the difference between single, double, and backtick quotes for strings?
 Single quotes and double quotes behave in exactly the same way in JavaScript.
