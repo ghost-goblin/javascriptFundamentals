@@ -40,11 +40,17 @@ As in [this tutorial](https://masteringjs.io/tutorials/fundamentals/substring), 
 - Less name confusion: there's no `String#splice()`
 
 ## 8. What are methods?
+A method is a function which is a **property** of an object. A JavaScript **property** is a characteristic of an object, often describing attributes associated with a data structure. There are two kind of methods: **Instance Methods** which are built-in tasks performed by an object instance, or **Static Methods** which are tasks that are called directly on an object constructor.
+
+## 9. What are the three logical operators and what do they stand for?
+There are three logical operators in JavaScript: `||` (OR), `&&` (AND), `!` (NOT). Go through [this tutorial](https://javascript.info/logical-operators#:~:text=There%20are%20three%20logical%20operators,also%20be%20of%20any%20type.) to read more about logical operators.
+
+## 10. What are the comparison operators?
+[Comparison operators](https://www.w3schools.com/js/js_comparisons.asp) are used in logical statements to determine equality or difference between variables or values.
+
+## 11. What is nesting?
 
 
-9. What are the three logical operators and what do they stand for?
-10. What are the comparison operators?
-11. What is nesting?
 12. What are truthy and falsy values?
 13. What are the falsy values in JavaScript?
 14. What is the syntax for an if/else conditional?
