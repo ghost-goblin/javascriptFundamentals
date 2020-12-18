@@ -49,10 +49,21 @@ There are three logical operators in JavaScript: `||` (OR), `&&` (AND), `!` (NOT
 [Comparison operators](https://www.w3schools.com/js/js_comparisons.asp) are used in logical statements to determine equality or difference between variables or values.
 
 ## 11. What is nesting?
+When we refer to nesting in JavaScript, we are referring to the ability to create a function within a function.
 
+## 12. What are truthy and falsy values?
+In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy (i.e., except for false, 0, -0, 0n, "", null, undefined, and NaN). A falsy value is a value that is considered false when encountered in a Boolean context.
 
-12. What are truthy and falsy values?
-13. What are the falsy values in JavaScript?
+## 13. What are the falsy values in JavaScript?
+1. `false` - The keyword false
+2. `0`	The number zero
+3. `-0`	The number negative zero
+4. `0n`	BigInt, when used as a boolean, follows the same rule as a Number.
+5. `""`	Empty string value
+6. `null` - the absence of any value
+7. `undefined` - the primitive value
+8. `NaN` - not a number
+
 14. What is the syntax for an if/else conditional?
 15. What is the syntax for a switch statement?
 16. What is the syntax for a ternary operator?
