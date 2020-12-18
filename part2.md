@@ -65,7 +65,37 @@ In JavaScript, a truthy value is a value that is considered true when encountere
 8. `NaN` - not a number
 
 ## 14. What is the syntax for an if/else conditional?
+Go over this [MDN document](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) to read about decision making in JsvsScript.
+
 ## 15. What is the syntax for a switch statement?
+```js
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
 ## 16. What is the syntax for a ternary operator?
+```js
+var age = 26;
+var beverage = (age >= 21) ? "Beer" : "Juice";
+console.log(beverage); // "Beer"
+```
+
 ## 17. What is the relationship between null and undefined?
+`null` is an object means and an empty or non-existent value. `undefined` means a variable has been declared, but the value of that variable has not yet been defined.
+- `null` is an assigned value. It means nothing.
+- `undefined` means a variable has been declared but not defined yet.
+- `null` is an object. `undefined` is of type undefined.
+- `null !== undefined` but `null == undefined`.
+
 ## 18. What are conditionals?
+Conditional statements control behavior in JavaScript and determine whether or not pieces of code can run.
+- “If” statements: where if a condition is true it is used to specify execution for a block of code.
+- “Else” statements: where if the same condition is false it specifies the execution for a block of code.
+- “Else if” statements: this specifies a new test if the first condition is false.
