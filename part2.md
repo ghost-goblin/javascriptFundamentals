@@ -64,8 +64,8 @@ In JavaScript, a truthy value is a value that is considered true when encountere
 7. `undefined` - the primitive value
 8. `NaN` - not a number
 
-14. What is the syntax for an if/else conditional?
-15. What is the syntax for a switch statement?
-16. What is the syntax for a ternary operator?
-17. What is the relationship between null and undefined?
-18. What are conditionals?
+## 14. What is the syntax for an if/else conditional?
+## 15. What is the syntax for a switch statement?
+## 16. What is the syntax for a ternary operator?
+## 17. What is the relationship between null and undefined?
+## 18. What are conditionals?
