@@ -45,6 +45,19 @@ A method is a function which is a **property** of an object. A JavaScript **prop
 ## 9. What are the three logical operators and what do they stand for?
 There are three logical operators in JavaScript: `||` (OR), `&&` (AND), `!` (NOT). Go through [this tutorial](https://javascript.info/logical-operators#:~:text=There%20are%20three%20logical%20operators,also%20be%20of%20any%20type.) to read more about logical operators.
 
+### The Logical NOT (!)
+```js
+console.log(!false)  //true
+console.log(!true)   //false
+```
+The following code does not change the value of user and switches the value of false into true:
+```js
+let user = false;
+if (!user) {
+  console.log('You must be logged in to continue')
+}
+```
+
 ## 10. What are the comparison operators?
 [Comparison operators](https://www.w3schools.com/js/js_comparisons.asp) are used in logical statements to determine equality or difference between variables or values.
 
