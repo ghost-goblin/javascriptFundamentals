@@ -51,3 +51,11 @@ If no parameter is included to specify a joining/delimiting character, a comma i
 
 ## Function Scope & Conflicts
 The top level outside all your functions is called the **global scope**. Values defined in the global scope are accessible from everywhere in the code. The variables and other things defined inside the function are inside their own separate scope.
+
+## Return Values
+To return a value from a custom function, you need to use the **return** keyword:
+```js
+function random(number) {
+  return Math.floor(Math.random() * number);
+}
+```
