@@ -30,3 +30,5 @@ You can also assign the function to be the value of a variable and can be invoke
 let newGreeting = myGreeting;
 ```
 However, we mainly use anonymous functions to run code in response to an event.
+
+## Function Parameters
