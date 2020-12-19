@@ -18,7 +18,14 @@ Single quotes and double quotes behave in exactly the same way in JavaScript.
 The backtick quote allows **string templating**.
 
 ## 4. Which type of quote lets you embed variables/expressions into a string?
-[Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) are string literals allowing embedded expressions.
+[Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) are string literals allowing embedded expressions. A good use case of **template strings** is to create HTML templates:
+```js
+let html = `
+  <h2>${title}</h2>
+  <p>By ${auuthor}</p>
+  <span>This blog has ${likes} likes</span>
+`;
+```
 
 ## 5. How do you embed variables/expressions into a string?
 ```js
