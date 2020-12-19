@@ -81,3 +81,8 @@ let add7 = a => a + 7;
 
 console.log(add7(3));
 ```
+If there are no arguments, parentheses will be empty (but they should be present):
+```js
+let sayHi = () => alert("Hello World!");
+sayHi();
+```
