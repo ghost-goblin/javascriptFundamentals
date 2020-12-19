@@ -19,7 +19,8 @@ An anonymous function won't do anything on its own and is generally used along w
 ```js
 const myGreeting = function() {
   alert('hello world');
-}
+};
+// The only time that you use a semi colon (;) after a function is in a function expression
 ```
 This is also known as a **function expression** and unlike function declarations, function expressions are _not hoisted_. This function can be invoked by using the following and effectively gives the function name:
 ```js
