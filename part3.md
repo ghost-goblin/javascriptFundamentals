@@ -47,7 +47,18 @@ let madeAString = myArray.join(' ');
 let madeAString = myArray.join();
 // returns 'I,love,chocolate,frogs'
 ```
-If no parameter is included to specify a joining/delimiting character, a comma is used by default.
+If no parameter is included to specify a joining/delimiting character, a comma is used by default. If a parameter is not provided, then its value becomes `undefined`.
+```js
+function showMessage(text) {
+  if (text === undefined) {
+    text = 'empty message';
+  }
+
+  alert(text);
+}
+
+showMessage(); // empty message
+```
 
 ## Function Scope & Conflicts
 The top level outside all your functions is called the **global scope**. Values defined in the global scope are accessible from everywhere in the code. The variables and other things defined inside the function are inside their own separate scope.
