@@ -70,3 +70,14 @@ function random(number) {
   return Math.floor(Math.random() * number);
 }
 ```
+## Arrow Functions
+```js
+let add7 = a => a + 7;
+
+// This is the same as:
+// function add7(a) {
+//     return a + 7;
+// };
+
+console.log(add7(3));
+```
