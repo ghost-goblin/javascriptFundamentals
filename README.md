@@ -8,3 +8,4 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 
 * [Part 1](part1.md)
 * [Part 2](part2.md)
+* [The DOM](dom.md)
