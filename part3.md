@@ -32,3 +32,21 @@ let newGreeting = myGreeting;
 However, we mainly use anonymous functions to run code in response to an event.
 
 ## Function Parameters
+These are values that need to be included inside the function parentheses and are sometimes called **arguments**, **properties** and **attributes**.
+The browsers built-in `Math.random()` function doesn't require any parameters and returns an random number between 1 and 0.
+The `replace()` function, however, requires 2 parameters: the substring to find in the main string, and the substring to replace the string:
+```js
+let myText = 'I am a string';
+let newString = myText.replace('string', 'sausage');
+```
+When you need to specify multiple parameters, they are separated by commas. Some parameters are optional, and if you don't specify them, the function will adopt some kind of default behaviour. For example, the array `join()` function's parameter are optional:
+```js
+let myArray = ['I', 'love', 'chocolate', 'frogs'];
+let madeAString = myArray.join(' ');
+// returns 'I love chocolate frogs'
+let madeAString = myArray.join();
+// returns 'I,love,chocolate,frogs'
+```
+If no parameter is included to specify a joining/delimiting character, a comma is used by default.
+
+## Function Scope & Conflicts
