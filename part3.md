@@ -96,3 +96,9 @@ If there are no arguments, parentheses will be empty (but they should be present
 let sayHi = () => alert("Hello World!");
 sayHi();
 ```
+When we only have **one** parameter, we can take away the parenthesis:
+```js
+const calcArea = radius => Math.PI * radius**2;
+// const calcArea = (radius) => Math.PI * radius**2;
+// this will only work with one parameter!
+```
