@@ -103,9 +103,6 @@ const calcArea = radius => Math.PI * radius**2;
 // this will only work with one parameter!
 ```
 
-## Methods & Functions
-Methods essentially are functions, however, they are associated with an **object** or **data type** using dot notation, `name.toUpperCase();`. The difference is how we invoke them and how they are defined.
-
 ## Callback Functions
 We can pass a function as an argument:
 ```js
@@ -123,5 +120,19 @@ myFunc(function(value) {
 myFunc(value = > {   // arrow function
   // do something
   console.log(value);
+});
+```
+
+## Methods & Functions
+Methods essentially are functions, however, they are associated with an **object** or **data type** using dot notation, `name.toUpperCase();`. The difference is how we invoke them and how they are defined.
+For example, `forEach();` is a method that _iterates_ over an array. The `forEach();` method expects a **callback function**:
+```js
+let employees = ['Jim', 'Pam', 'Michael', 'Dwight', 'Angela', 'Ryan'];
+people.forEach(function(employee, index) {  // <--- the two different parameters that we can pass into the function
+  console.log(employee);
+});
+
+people.forEach(employee => {  // arrow function
+  console.log(employee);
 });
 ```
