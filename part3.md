@@ -102,3 +102,26 @@ const calcArea = radius => Math.PI * radius**2;
 // const calcArea = (radius) => Math.PI * radius**2;
 // this will only work with one parameter!
 ```
+
+## Methods & Functions
+Methods essentially are functions, however, they are associated with an **object** or **data type** using dot notation, `name.toUpperCase();`. The difference is how we invoke them and how they are defined.
+
+## Callback Functions
+We can pass a function as an argument:
+```js
+const myFunc = (callbackFunc) => {
+  // do something
+  let value = 50;
+  callbackFunc(value);
+};
+
+myFunc(function(value) {
+  // do something
+  console.log(value);
+});
+
+myFunc(value = > {   // arrow function
+  // do something
+  console.log(value);
+});
+```
