@@ -61,6 +61,15 @@ function showMessage(text) {
 showMessage(); // empty message
 ```
 
+### Default Parameters
+```js
+const speak = function(name = "Mario", time = "Morning") {
+  console.log(`Good ${name}, ${time}!`)
+};
+
+speak('Luigi', 'Night');  // these values will overwrite the default values above
+```
+
 ## Function Scope & Conflicts
 The top level outside all your functions is called the **global scope**. Values defined in the global scope are accessible from everywhere in the code. The variables and other things defined inside the function are inside their own separate scope.
 
