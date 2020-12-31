@@ -40,7 +40,7 @@ console.log(sum(1, 2, 3, 4));
 // expected output: 10
 ```
 
-## forEach
+## forEach Method
 ```js
 var removeFromArray = function(...args) {
     let newArr = [];
