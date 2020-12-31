@@ -27,6 +27,7 @@ let args = [...arguments];
 ## Rest Parameters
 The [rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) syntax allows us to represent an indefinite number of arguments as an array.
 ```js
+// Spread syntax (...)
 function sum(...theArgs) {
   return theArgs.reduce((previous, current) => {
     return previous + current;
