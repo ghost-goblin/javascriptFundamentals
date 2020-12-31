@@ -10,6 +10,8 @@ The **Document Object Model** is a tree-like representation of the contents of a
 </div>
 ```
 ## Tageting Nodes with Selectors
+
+The following selectors to refer to `<div class="display"></div>` through a combination of CSS-style selectors and relationship properties:
 * div.display
 * .display
 * #container > .display
