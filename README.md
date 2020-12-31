@@ -10,3 +10,4 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 * [Part 2](part2.md)
 * [Part 3](part3.md)
 * [Part 4](part4.md)
+* [DOM Manipulation](dom.md)
