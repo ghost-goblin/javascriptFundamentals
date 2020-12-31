@@ -10,12 +10,19 @@ The **Document Object Model** is a tree-like representation of the contents of a
 </div>
 ```
 ## Tageting Nodes with Selectors
-
 The following selectors to refer to `<div class="display"></div>` through a combination of CSS-style selectors and relationship properties:
 * div.display
 * .display
 * #container > .display
 * div#container > div.display
+
+## Relational Selectors
+```js
+const container = document.querySelector('#container'); //Select the #container div
+console.dir(container.firstElementChild);               //Select the first child of #container (.display)
+const controls = document.querySelector('.controls');   //Select the .controls div
+console.dir(controls.previousElementSibling);           //Selectes the prior sibling (.display)
+```
 
 ## What is DOM in relation to a webpage?
 ## What's the difference between a "node" and an "element"?
