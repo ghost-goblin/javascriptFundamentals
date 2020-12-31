@@ -1,6 +1,8 @@
 # JavaScript Fundamentals - [Dom Manipulation](https://www.theodinproject.com/courses/foundations/lessons/dom-manipulation)
 
-![Document Object Model](https://www.w3schools.com/js/pic_htmltree.gif)#
+<div align="center">
+![Document Object Model](https://www.w3schools.com/js/pic_htmltree.gif)
+</div>
 
 The **Document Object Model** is a tree-like representation of the contents of a webpage - a tree of “nodes” with different relationships depending on how they’re arranged in the HTML document.
 
