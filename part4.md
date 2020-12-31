@@ -3,6 +3,17 @@
 ## Arrays
 JavaScript arrays are used to store multiple values in a single variable. Arrays are objects and the `typeof` operator returns "object".
 
+## Array Methods
+[W3schools](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods.
+- The `splice()` method can be used to add new items to an array.
+```js
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+// or
+fruits.splice(0, 1);        // Removes the first element of fruits
+```
+- The `slice()` method creates a new array. It does not remove any elements from the source array.
+
 ## The Arguments Object
 [Arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) is an Array-like object accessible inside functions that contains the values of the arguments passed to that function. The arguments object is a local variable available within all non-arrow functions. You can refer to a function's arguments inside that function by using its arguments object. It has entries for each argument the function was called with, with the first entry's index at 0.
 
