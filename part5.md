@@ -46,12 +46,10 @@ The `reduce()` method reduces an array of values down to just one value. To get 
 arr.reduce(callback[, initialValue])
 ```
 The callback argument is a function that will be called once for every item in the array. This function takes four arguments, but often only the first two are used.
-* accumulator - the returned value of the previous iteration
-* currentValue - the current item in the array
-* index - the index of the current item
-* array - the original array on which reduce was called
-
-The initialValue argument is optional. If provided, it will be used as the initial accumulator value in the first call to the callback function.
+* `accumulator` - the returned value of the previous iteration
+* `currentValue` - the current item in the array
+* `index` - the index of the current item
+* `array` - the original array on which reduce was called
 
 ```js
 const numbers = [1,2,3,4];
@@ -60,4 +58,21 @@ const sum = numbers.reduce((result, item) => {
 }, 0)
 
 console.log(sum);
+```
+
+The `nitialValue` argument is optional. If provided, it will be used as the initial accumulator value in the first call to the callback function.
+
+```js
+const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+const newData = data.reduce((results, item) => {
+  if (!results[item]) {
+    results[item] = 1; 
+  } else {
+    results[item] = results[item] + 1;
+  }
+  return results;
+}, {});
+
+console.log(newData);
 ```
