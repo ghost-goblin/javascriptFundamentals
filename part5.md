@@ -8,7 +8,8 @@ The `map()` method is used for creating a new array from an existing one, applyi
 const numbers = [1,2,3,4];
 const doubled = numbers.map(num => num * 2);
 console.log(doubled);
-```In the callback, only the array element is required. Usually some action is performed on the value and then a new value is returned.
+```
+In the callback, only the array element is required. Usually some action is performed on the value and then a new value is returned.
 
 
 ## `filter()`
