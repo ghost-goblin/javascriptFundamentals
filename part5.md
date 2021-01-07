@@ -33,3 +33,10 @@ var new_array = arr.filter(function callback(element, index, array) {
     // Return true or false
 }[, thisArg])
 ```
+
+## `reduce()`
+The `reduce()` method reduces an array of values down to just one value. To get the output value, it runs a reducer function on each element of the array.
+### Syntax
+```js
+arr.reduce(callback[, initialValue])
+```
