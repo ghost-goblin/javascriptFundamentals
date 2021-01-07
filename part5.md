@@ -60,7 +60,7 @@ const sum = numbers.reduce((result, item) => {
 console.log(sum);
 ```
 
-The `nitialValue` argument is optional. If provided, it will be used as the initial accumulator value in the first call to the callback function.
+The `initialValue` argument is optional. If provided, it will be used as the initial accumulator value in the first call to the callback function.
 
 ```js
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
