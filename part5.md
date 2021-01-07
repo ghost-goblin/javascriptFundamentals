@@ -52,3 +52,12 @@ The callback argument is a function that will be called once for every item in t
 * array - the original array on which reduce was called
 
 The initialValue argument is optional. If provided, it will be used as the initial accumulator value in the first call to the callback function.
+
+```js
+const numbers = [1,2,3,4];
+const sum = numbers.reduce((result, item) => {
+  return result + item;
+}, 0)
+
+console.log(sum);
+```
