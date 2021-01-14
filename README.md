@@ -13,6 +13,6 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 * [DOM Manipulation](dom.md)
 * [Part 5](part5.md)
 
-(The JavaScript Course)[https://www.theodinproject.com/courses/javascript]
+### [The JavaScript Course](https://www.theodinproject.com/courses/javascript)
 
 * [Objects](objects.md)
