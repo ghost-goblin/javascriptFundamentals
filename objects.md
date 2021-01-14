@@ -2,18 +2,18 @@
 
 ```js
 function Book(title, author, pages, read) {
-  this.title = title;
+	this.title = title;
   this.author = author;
   this.pages = pages;
   this.read = read;
   
   this.info = function() {
-  console.log(title);
+  console.log(`${title} by ${author}, ${pages} pages, read: ${read}`);
   
   };
 };
 
-const theHobbit = new Book('Hobbit', 'J.R.R. Tolkien', 182, true);
+const theHobbit = new Book('The Hobbit', 'J.R.R. Tolkien', 182, true);
 
 theHobbit.info();
 ```
