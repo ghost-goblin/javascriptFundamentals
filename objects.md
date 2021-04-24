@@ -21,8 +21,6 @@ console.log(theHobbit.info());
 
 ## Object Literals
 ```js
-'use strict';
-
 let witch = { name: 'Abby', colour: 'Green' }
 witch.fly = () => { console.log('The witch is flying!') };
 witch.fly(); // run the fly fun function
@@ -50,8 +48,6 @@ let witch = new Witch();
 console.log(witch); // Witch {name: "Abby", colour: "Green"}
 
 //OR
-
-'use strict';
 
 function Witch(name, colour) {
     this.name = name
