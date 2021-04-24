@@ -73,3 +73,5 @@ let goblin = new Goblin('Elliot', 'Pink');
 console.log(goblin); // Goblin {name: "Elliot", colour: "Pink"}
 goblin.fight(); // ...fighting the goblin!
 ```
+## Object Properties
+`Object.getOwnPropertyDescriptor()`
