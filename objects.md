@@ -48,4 +48,16 @@ function Witch() {
 
 let witch = new Witch();
 console.log(witch); // Witch {name: "Abby", colour: "Green"}
+
+//OR
+
+'use strict';
+
+function Witch(name, colour) {
+    this.name = name
+    this.colour = colour
+}
+
+let witch = new Witch('Abby', 'Green');
+console.log(witch); // Witch {name: "Abby", colour: "Green"}
 ```
