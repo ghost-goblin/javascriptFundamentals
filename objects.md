@@ -17,3 +17,22 @@ const theHobbit = new Book('The Hobbit', 'J.R.R. Tolkien', 182, true);
 console.log(theHobbit.info());
 ```
 > It's _always_ better to `return` things in functions!
+> 
+
+## Object Literals
+```js
+'use strict';
+
+let witch = { name: 'Abby', colour: 'Green' }
+witch.fly = () => { console.log('The witch is flying!') };
+witch.fly(); // run the fly fun function
+
+//OR
+
+let witch = { name: 'Abby',
+              colour: 'Green',
+              fly: () => { console.log('The witch is flying!') }
+            }
+
+witch.fly();
+```
