@@ -46,9 +46,9 @@ function Witch() {
 
 let witch = new Witch();
 console.log(witch); // Witch {name: "Abby", colour: "Green"}
-
-//OR
-
+```
+## Constructor Functions
+```js
 function Witch(name, colour) {
     this.name = name
     this.colour = colour
@@ -57,3 +57,4 @@ function Witch(name, colour) {
 let witch = new Witch('Abby', 'Green');
 console.log(witch); // Witch {name: "Abby", colour: "Green"}
 ```
+## `Object.create`
