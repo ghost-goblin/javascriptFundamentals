@@ -75,3 +75,13 @@ goblin.fight(); // ...fighting the goblin!
 ```
 ## Object Properties
 `Object.getOwnPropertyDescriptor()`
+
+```js
+const cat = {
+    name: 'Salem',
+    colour: 'Black'
+}
+
+console.log(Object.getOwnPropertyDescriptor(cat, 'name'));
+// {value: "Salem", writable: true, enumerable: true, configurable: true}
+```
