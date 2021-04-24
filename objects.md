@@ -57,4 +57,19 @@ function Witch(name, colour) {
 let witch = new Witch('Abby', 'Green');
 console.log(witch); // Witch {name: "Abby", colour: "Green"}
 ```
-## `Object.create`
+## ES6 Classes
+```js
+class Goblin {
+    constructor(name, colour) {
+        this.name = name
+        this.colour = colour
+    }
+    fight() {
+        console.log('...fighting the goblin!');
+    }
+}
+
+let goblin = new Goblin('Elliot', 'Pink');
+console.log(goblin); // Goblin {name: "Elliot", colour: "Pink"}
+goblin.fight(); // ...fighting the goblin!
+```
