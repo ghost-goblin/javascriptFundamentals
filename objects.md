@@ -38,7 +38,7 @@ witch.fly();
 ```
 ## `this` Keyword
 Refers to an object that is executing the current bit of code, by default that is the global object.
-In a web browser this is the window object. The `new` keyword creates a emoty JavaScript object, set the context of this to the new object and then calls the witch function.
+In a web browser this is the window object. The `new` keyword creates a emoty JavaScript object, set the context of `this` to the new object and then calls the witch function.
 
 ```js
 function Witch() {
