@@ -117,8 +117,10 @@ let cat = {  // object literal
     colour: 'Black'
 }
 
-// The FOR ... IN Loop
+// The for ... in Loop
 for (let propertyName in cat) {
-  console.log(propertyName)
+  console.log(propertyName + ': ' + cat[propertyName])
 }
+// "name: [object Object]"
+// "colour: Black"
 ```
