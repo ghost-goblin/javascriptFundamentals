@@ -141,3 +141,22 @@ console.log(Object.keys(cat));
 // [object Array] (1)
 // ["colour"]
 ```
+
+## Getters & Setters
+Attributes on a property that allow you to specify the return value of a property using a function.
+```js
+let cat = {  // object literal
+    name: { first: 'Salem', last: 'Spellman' },
+    colour: 'Black'
+}
+
+// To create Getters & Setters the have to use the define property
+Object.defineProperty(cat, 'fullName',
+                     {
+  get: function() {
+    return this.name.first + ' ' + this.name.last;
+  }
+})
+
+console.log(cat.fullName);
+```
