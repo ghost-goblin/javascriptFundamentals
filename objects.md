@@ -158,5 +158,5 @@ Object.defineProperty(cat, 'fullName',
   }
 })
 
-console.log(cat.fullName);
+console.log(cat.fullName); // "Salem Spellman"
 ```
