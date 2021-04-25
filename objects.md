@@ -109,3 +109,16 @@ cat.name.first = 'Scratchy';
 console.log(cat.name);
 ```
 > You can prevent the Object being changed by the using `Object.freeze(cat.name)`
+
+## Looping through Properties in Objects
+```js
+let cat = {  // object literal
+    name: { first: 'Salem', last: 'Spellman' },
+    colour: 'Black'
+}
+
+// The FOR ... IN Loop
+for (let propertyName in cat) {
+  console.log(propertyName)
+}
+```
