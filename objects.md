@@ -108,3 +108,4 @@ Object.defineProperty(cat, 'name', { writable: false });
 cat.name.first = 'Scratchy';
 console.log(cat.name);
 ```
+> You can prevent the Object being changed by the using `Object.freeze(cat.name)`
