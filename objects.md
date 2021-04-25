@@ -124,3 +124,19 @@ for (let propertyName in cat) {
 // "name: [object Object]"
 // "colour: Black"
 ```
+Setting enumerable to false, `Object.defineProperty(cat, 'name', {enumerable: false})` also prevents the properties from showing up in the object keys
+```js
+let cat = {  // object literal
+    name: { first: 'Salem', last: 'Spellman' },
+    colour: 'Black'
+}
+
+Object.defineProperty(cat, 'name', { enumerable: false })
+// The FOR ... IN Loop
+for (let propertyName in cat) {
+  console.log(propertyName + ': ' + cat[propertyName])
+}
+console.log(Object.keys(cat));
+// [object Array] (1)
+// ["colour"]
+```
