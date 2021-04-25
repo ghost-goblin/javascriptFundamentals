@@ -160,3 +160,27 @@ Object.defineProperty(cat, 'fullName',
 
 console.log(cat.fullName); // "Salem Spellman"
 ```
+Let create a setter to spilt the name up again ...
+```js
+let cat = {  // object literal
+    name: { first: 'Salem', last: 'Spellman' },
+    colour: 'Black'
+}
+
+// To create Getters & Setters the have to use the define property
+Object.defineProperty(cat, 'fullName',
+                     {
+  get: function() {
+    return this.name.first + ' ' + this.name.last;
+  },
+  set: function(value) {
+    let nameSplit = value.split(' ');
+    this.name.first = nameSplit[0];
+    this.name.last = nameSplit[1];
+  }
+})
+
+cat.fullName = 'Tulip Flower'
+console.log(cat.fullName); // "Tulip Flower"
+console.log(cat.name.first); // "Tulip"
+```
