@@ -124,7 +124,8 @@ for (let propertyName in cat) {
 // "name: [object Object]"
 // "colour: Black"
 ```
-Setting enumerable to false, `Object.defineProperty(cat, 'name', {enumerable: false})` also prevents the properties from showing up in the object keys
+Setting enumerable to false, `Object.defineProperty(cat, 'name', {enumerable: false})` also prevents the properties from showing up in the object keys.
+Prevents JSON serialisation of the Object `JSON.stringify(cat)`.
 ```js
 let cat = {  // object literal
     name: { first: 'Salem', last: 'Spellman' },
