@@ -222,3 +222,20 @@ An object's prototype is the object instance from which the object is inherited.
 let cat = {name: 'Salem'}
 console.log(cat.__proto__) // {}
 ```
+JavaScript looks at an object to see if it has the property value and if not then it asks its prototype.
+```js
+function Cat(name, colour) {
+  this.name = name
+  this.colour = colour
+}
+
+Cat.prototype.age = 4
+
+let salem = new Cat('Salem', 'Black')
+let garfield = new Cat('Garfield', 'Ginger')
+
+salem.age = 5
+
+console.log(salem.age); //5
+console.log(salem.__proto__.age); //4
+```
