@@ -85,3 +85,26 @@ const cat = {
 console.log(Object.getOwnPropertyDescriptor(cat, 'name'));
 // {value: "Salem", writable: true, enumerable: true, configurable: true}
 ```
+## Change the Property Attributes using the `Object.defineProperty()` Method
+```js
+const cat = {  // object literal
+    name: 'Salem',
+    colour: 'Black'
+}
+
+
+Object.defineProperty(cat, 'name', { writable: false });
+console.log(Object.getOwnPropertyDescriptor(cat, 'name'));
+```
+> You can change the following at the writable attribute is just a pointer
+```js
+let cat = {  // object literal
+    name: { first: 'Salem', last: 'Spellman' },
+    colour: 'Black'
+}
+
+
+Object.defineProperty(cat, 'name', { writable: false });
+cat.name.first = 'Scratchy';
+console.log(cat.name);
+```
