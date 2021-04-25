@@ -184,3 +184,34 @@ cat.fullName = 'Tulip Flower'
 console.log(cat.fullName); // "Tulip Flower"
 console.log(cat.name.first); // "Tulip"
 ```
+## Prototypes
+```js
+let arr = ['red', 'blue', 'green']
+
+Object.defineProperty(arr, 'last', { get: function() {
+  return this[this.length-1]
+}});
+
+let last = arr.last
+console.log(last); // green
+```
+## Creating a Prototype
+An Array Object is just a function that is meant to be used as a constructor function
+```js
+let arr = ['red', 'blue', 'green']
+
+Object.defineProperty(Array.prototype, 'last', { get: function() {
+  return this[this.length-1]
+}});
+
+let last = arr.last
+let arr2 = ['one', 'two', 'three']
+console.log(arr2.last); // green
+```
+## What is a Prototype?
+```js
+let myFunc = function()  {
+  return console.log(myFunc.prototype);
+}
+myFunc(); // {}
+```
