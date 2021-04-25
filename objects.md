@@ -209,7 +209,7 @@ let arr2 = ['one', 'two', 'three']
 console.log(arr2.last); // green
 ```
 ## What is a Prototype?
-A function's prototype is the object instance that will become the prototpe for all objects created using this function as a constructor.
+A function's prototype is the object instance that will become the prototype for all objects created using this function as a constructor.
 ```js
 let myFunc = function()  {
   return console.log(myFunc.prototype);
