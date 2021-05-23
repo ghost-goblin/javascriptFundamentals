@@ -15,4 +15,5 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 
 ### [The JavaScript Course](https://www.theodinproject.com/courses/javascript)
 
-* [Objects](objects.md)
+* [Objects & Object Constructors](objects.md)
+* [Factory Functions & the Module Pattern](factory-functions.md)
