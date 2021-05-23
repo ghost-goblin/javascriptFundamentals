@@ -18,6 +18,20 @@ ghost1.fightSpell();
 ```
 ## Explain how scope works in JavaScript (bonus points if you can point out what ES6 changed!)
 With constructor functions, the lack of encapsulation may create security problems. When using factory functions, only the methods we expose are **public**, everything else is encapsulated. Because of the concept of scope, functions created inside factory functions cannot not be accessed outside the function itself. The only way to use either of those fuctions is to `return` them in the object.
+```js
+const factoryFunction = string => {
+  const privateFunction = () => string.toUpperCase();
+  const publicFunction = () => console.log(`----${privateFunction()}----`);
+  return { publicFunction };
+};
+
+const taco = factoryFunction('taco');
+
+printString(); // ERROR!!
+publicString(); // ERROR!!
+taco.privateFunction(); // ERROR!!
+console.log(taco.publicFunction()); // this prints "----TACO----"
+```
 
 ## Explain what Closure is and how it impacts private functions & variables
 ## Describe how private functions & variables are useful
