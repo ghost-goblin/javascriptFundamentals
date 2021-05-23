@@ -34,6 +34,8 @@ console.log(taco.publicFunction()); // this prints "----TACO----"
 ```
 
 ## Explain what Closure is and how it impacts private functions & variables
+Closure is that even though we can’t access the `privateFunction()` function, `publicFunction()` can be accessed. Functions retain their scope even if they are passed around and called outside of that scope. `publicFunction()` has access to everything inside of FactoryFunction, even if it gets called outside of that function.
+
 ## Describe how private functions & variables are useful
 ## Use inheritance in objects using the factory pattern
 ## Explain the module pattern
