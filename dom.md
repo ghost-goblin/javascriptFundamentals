@@ -17,14 +17,14 @@ Things like forEach, map, and reduce are not available on an HTMLCollection.
   <div class="controls"></div>
 </div>
 ```
-## Tageting Nodes with Selectors
+#### Tageting Nodes with Selectors
 The following selectors to refer to `<div class="display"></div>` through a combination of CSS-style selectors and relationship properties:
 * div.display
 * .display
 * #container > .display
 * div#container > div.display
 
-## Relational Selectors
+#### Relational Selectors
 ```js
 const container = document.querySelector('#container'); //Select the #container div
 console.dir(container.firstElementChild);               //Select the first child of #container (.display)
