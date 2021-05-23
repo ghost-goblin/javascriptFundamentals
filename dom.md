@@ -36,6 +36,20 @@ console.dir(controls.previousElementSibling);           //Selectes the prior sib
 A NodeList on the other hand can contain any type of node including elements. NodeLists are also similar to arrays, but they again lack most higher order functions. The only higher order function on a NodeList is the forEach function. Some examples of methods that return NodeLists are querySelectorAll and childNodes.
 
 ## How do "events" and "listeners" work? What are three ways to use events in your code?
+```js
+// method 1
+<button onclick="alert('Hello World')">Click Me</button>
+
+//method 2
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello World");
+
+//method 3
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+  alert("Hello World");
+});
+```
 
 ## How does "bubbling" work?
 [RIP Tutorial](https://riptutorial.com/dom/example/1344/event-bubbling-and-capturing)
