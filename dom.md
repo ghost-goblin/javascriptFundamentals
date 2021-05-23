@@ -1,9 +1,7 @@
 # JavaScript Fundamentals - [Dom Manipulation](https://www.theodinproject.com/courses/foundations/lessons/dom-manipulation)
-The **Document Object Model** is a tree-like representation of the contents of a webpage - a tree of “nodes” with different relationships depending on how they’re arranged in the HTML document.
-
-![Document Object Model](https://www.w3schools.com/js/pic_htmltree.gif)
-
 ## What is DOM in relation to a webpage?
+The **Document Object Model** is a tree-like representation of the contents of a webpage - a tree of “nodes” with different relationships depending on how they’re arranged in the HTML document.
+![Document Object Model](https://www.w3schools.com/js/pic_htmltree.gif)
 ## What's the difference between a "node" and an "element"?
 Elements are just HTML elements, such as a div, span, or body tag. Generally when you are working with the DOM you will be working with elements since most often you want to interact with HTML elements. Nodes are the more generic version of an element. A node could be an HTML element, but it could also be anything else in an HTML document, such as text or comments. 
 ## How do you target nodes with "selectors"?
