@@ -239,3 +239,22 @@ salem.age = 5
 console.log(salem.age); //5
 console.log(salem.__proto__.age); //4
 ```
+## The `Object.create` Method
+```js
+let proto = { protoprop: 'protoprop' };
+let obj = Object.create(proto);
+console.log(proto.isPrototypeOf(obj)); //true
+```
+## How to check the instance of an Object
+```js
+function C() {} //Dummy throwaway constructor
+C.prototype = { prototypeprop: 'proto' };
+c = new C();
+console.log(c instanceof C); //true
+```
+BUT ...
+
+```js
+console.log(c.constructor === C); //false
+```
+The `instanceof` and `constructor` create false links between objects and functions. Constructors are simply functions for creating objects.
