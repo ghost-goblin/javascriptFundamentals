@@ -41,6 +41,20 @@ In the context of factory functions, **closures** allow us to create private var
 > For every bit of functionality that you need for your program, there are likely to be several supporting functions that do NOT need to be used in your program as a whole. Tucking these away and making them inaccessible makes your code easier to refactor, easier to test, and easier to reason about for you and anyone else that wants to use your objects.
 
 ## Use inheritance in objects using the factory pattern
+Factories are simply plain old JavaScript functions that return objects for us to use in our code and you can pick and choose which functions you want to include in your new object. The `Object.assign()` method copies all enumerable own properties from one or more source objects to a target object and returns the target object.
+```js
+const Nerd = (name) => {
+  const prototype = Person(name)
+  const doSomethingNerdy = () => console.log('nerd stuff')
+  return Object.assign({}, prototype, {doSomethingNerdy}) // lump it together
+}
+```
+
 ## Explain the module pattern
+Modules are actually very similar to factory functions.
+
 ## Describe IIFE. What does it stand for?
+### Immediately Invoked Function Expression
+
+
 ## Briefly explain namespacing and how it’s useful
