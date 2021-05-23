@@ -50,11 +50,31 @@ const Nerd = (name) => {
 }
 ```
 
-## Explain the module pattern
-Modules are actually very similar to factory functions.
+## Explain the Module Pattern
+The Module Pattern is one of the most common design patterns used in JavaScript and are actually very similar to factory functions.
 
 ## Describe IIFE. What does it stand for?
-### Immediately Invoked Function Expression
+**Immediately Invoked Function Expression**, the function is evaluated then immediately invoked.  Write a function, wrap it in parentheses, and then immediately call the function by adding `();` the end of it. The module pattern creates **encapsulation** of our code and is great for services and testing / TDD.
+```js
+(function() {
+  'use strict'; // good practice to run your modules in strict mode
+  // Your code here
+  // All function and variables are scoped to this function
+})();
+```
+Exporting a module and creating a public method for the module to call. To expose this method to code outside our module we `return` an Object with the methods defined.
+```js
+const myModule = (function() {
+  'use strict';
 
+  return {
+    publicMethod: function() {
+      console.log('Hello World!');
+    }
+  };
+})();
+
+myModule.publicMethod(); // outputs 'Hello World'
+```
 
 ## Briefly explain namespacing and how it’s useful
