@@ -17,3 +17,4 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 
 * [Objects & Object Constructors](objects.md)
 * [Factory Functions & the Module Pattern](factory-functions.md)
+* [Classes](classes.md)
