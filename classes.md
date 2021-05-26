@@ -143,3 +143,5 @@ function func() {
 let funcUser = func.bind(user);
 funcUser();
 ```
+## `super` Class Calls
+The `super` keyword is used to call corresponding methods of `super` class. This is one advantage over **prototype-based inheritance**.
