@@ -49,4 +49,14 @@ Technically, we could do the same without creating a class but there are still a
 4. Classes always `use strict`. All code inside the class construct is automatically in **strict mode**
 
 ## Class Expressions
+Just like functions, classes can be defined inside another expression, passed around, returned, assigned, etc.
+```js
+let User = class MyClass {
+  sayHi() {
+    console.log(MyClass); // MyClass name is visible only inside the class
+  }
+};
 
+new User().sayHi(); // works, shows MyClass definition
+console.log(MyClass); // error, MyClass name isn't visible outside of the class
+```
