@@ -164,4 +164,6 @@ class Human extends Vulcan {
 
 let human1 = new Human("Spok");
 human1.sayHi();
+// Spok says hi in Vulcan.
+// Spok says hi in Human.
 ```
