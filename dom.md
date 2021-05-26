@@ -33,7 +33,7 @@ console.dir(controls.previousElementSibling);           //Selectes the prior sib
 ```
 
 ## What is the difference between a "nodelist" and an "array of nodes"?
-A NodeList on the other hand can contain any type of node including elements. NodeLists are also similar to arrays, but they again lack most higher order functions. The only higher order function on a NodeList is the forEach function. Some examples of methods that return NodeLists are querySelectorAll and childNodes.
+A NodeList on the other hand can contain any type of node including elements. NodeLists are also similar to arrays, but they again lack most higher order functions. The only higher order function on a NodeList is the `forEach` function. Some examples of methods that return NodeLists are `querySelectorAll` and `hildNodes`.
 
 ## How do "events" and "listeners" work? What are three ways to use events in your code?
 ```js
