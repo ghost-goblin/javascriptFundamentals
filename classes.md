@@ -45,5 +45,8 @@ So what happens when the `new User()` is called?
 Technically, we could do the same without creating a class but there are still a few important differences to note:
 1. A function created by a class has a special internal property, `[[isClassConstructor]]: true`. Javascript checks for that property in a variety of places and unlike a regular function, must be called with the `new` keyword
 2. A string representation of a class constructor in most JavaScript engines starts with the “class…”
-3. Class methods are _non-enumerable_. A class definition sets enumerable flag to `false` for all **methods** in the "prototype" which is handy as when we create a `for...in` loop, we don't want to loop over the methods.
+3. Class methods are _non-enumerable_. A class definition sets enumerable flag to `false` for all **methods** in the "prototype" which is handy as when we create a `for...in` loop, we don't want to loop over the methods
+4. Classes always `use strict`. All code inside the class construct is automatically in **strict mode**
+
+## Class Expressions
 
