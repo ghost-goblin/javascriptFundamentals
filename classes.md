@@ -167,3 +167,5 @@ human1.sayHi();
 // Spok says hi in Vulcan.
 // Spok says hi in Human.
 ```
+## Mix-ins
+**Abstract subclasses** or **mix-ins** are templates for classes
