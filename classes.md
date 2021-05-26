@@ -11,6 +11,27 @@ class MyClass {
   ...
 }
 ```
-We can the use `use new MyClass()` to create a new object with all the listed methods.
+We can the use `new MyClass()` to create a new object with all the listed methods.
 
 ## The `constructor()` Method
+The `constructor()` method is called automatically by `new`, this is how we initialise the object.
+```js
+class User {
+
+  constructor(name) {
+    this.name = name;
+  }
+
+  sayHi() {
+    console.log("Hi " + this.name);
+  }
+
+}
+
+// Usage:
+let user = new User("John");
+user.sayHi();
+```
+So what happens when the `new User()` is called?
+1. A new object is created.
+The constructor runs with the given argument and assigns it to this.name.
