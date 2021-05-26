@@ -145,3 +145,23 @@ funcUser();
 ```
 ## `super` Class Calls
 The `super` keyword is used to call corresponding methods of `super` class. This is one advantage over **prototype-based inheritance**.
+```js
+class Vulcan {
+  constructor(name) {
+    this.name = name;
+  }
+  sayHi() {
+    console.log(`${this.name} says hi in Vulcan.`);
+  }
+}
+
+class Human extends Vulcan {
+  sayHi() {
+    super.sayHi();
+    console.log(`${this.name} says hi in Human.`)
+  }
+}
+
+let human1 = new Human("Spok");
+human1.sayHi();
+```
