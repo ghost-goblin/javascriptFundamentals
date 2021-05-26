@@ -32,6 +32,7 @@ publicString(); // ERROR!!
 taco.privateFunction(); // ERROR!!
 console.log(taco.publicFunction()); // this prints "----TACO----"
 ```
+ES6 adds more weapons in it’s arsenal when it comes to scope. It has a well defined scoping system which gives flexibility to the developer over hoisting. ES6 introduces the `let` keyword to declare the variables in a block scope. It also ensures variable is not valid if declaring order is upside down.
 
 ## Explain what Closure is and how it impacts private functions & variables
 Closure is that even though we can’t access the `privateFunction()` function, `publicFunction()` can be accessed. Functions retain their scope even if they are passed around and called outside of that scope. `publicFunction()` has access to everything inside of FactoryFunction, even if it gets called outside of that function.
