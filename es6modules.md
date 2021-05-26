@@ -26,6 +26,8 @@ npm install <package_name>
 ```
 
 ## Describe what a JavaScript module bundler like webpack is
+Webpack is used to compile JavaScript modules
+
 ## Explain what the concepts “entry” and “output” mean as relates to webpack
 ## Briefly explain what a development dependency is
 ## Explain what “transpiling code” means and how it relates to frontend development
