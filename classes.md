@@ -40,3 +40,9 @@ So what happens when the `new User()` is called?
 1. A **new object** is created
 2. The constructor runs with the given argument and assigns it to `this.name`
 3. After `new User` object is created, when we call its method, which is taken from the **prototype**, so the object has access to class methods
+
+## Syntactic Sugar?!
+Technically, we could do the same without creating a class but there are still a few important differences to note:
+1. A function created by a class has a special internal property, `[[isClassConstructor]]: true`. Javascript checks for that property in a variety of places and unlike a regular function, must be called with the `new` keyword
+2. A string representation of a class constructor in most JavaScript engines starts with the “class…”
+
