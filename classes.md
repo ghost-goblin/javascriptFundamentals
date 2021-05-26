@@ -101,3 +101,28 @@ let usr2 = new User("Jon");
 ```
 
 ## Computed Names […]
+
+```js
+class User {
+
+  ['say' + 'Hi']() {
+    alert("Hello");
+  }
+
+}
+
+new User().sayHi();
+```
+## Class Fields
+A syntax that allows us to add properties. The difference of class fields is that they are set on individual objects, not `User.prototype`:
+```js
+class User {
+  name = "Hannah";
+
+  sayHi() {
+    console.log(`Hello, ${this.name}!`);
+  }
+}
+
+new User().sayHi();
+```
