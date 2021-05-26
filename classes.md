@@ -33,5 +33,5 @@ let user = new User("John");
 user.sayHi();
 ```
 So what happens when the `new User()` is called?
-1. A new object is created.
-The constructor runs with the given argument and assigns it to this.name.
+1. A **new object** is created
+2. The constructor runs with the given argument and assigns it to `this.name`
