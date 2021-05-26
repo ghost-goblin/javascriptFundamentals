@@ -2,6 +2,12 @@
 
 ## Explain what npm is and where it was commonly used before being adopted on the frontend
 The `node package manager` is a command line tool that gives you access to a gigantic repository of plugins, libraries and tools.
+The `package.json` makes it easier for others to manage and install. Packages published to the registry must contain a `package.json` file.
+A `package.json` file:
+1. lists the packages your project depends on
+2. specifies versions of a package that your project can use using semantic versioning rules
+3. makes your build reproducible, and therefore easier to share with other developers
+A `package.json` file must contain `name` and `version` fields.
 
 ## Describe what npm init does and what package.json is
 ## Know how to install packages using npm
