@@ -168,4 +168,4 @@ human1.sayHi();
 // Spok says hi in Human.
 ```
 ## Mix-ins
-**Abstract subclasses** or **mix-ins** are templates for classes
+**Abstract subclasses** or **mix-ins** are templates for classes. In JavaScript we can only inherit from a single object. There can be only one `[[Prototype]]` for an object and a class may extend only one other class.
