@@ -21,6 +21,10 @@ npm init
 ```
 
 ## Know how to install packages using npm
+```sh
+npm install <package_name>
+```
+
 ## Describe what a JavaScript module bundler like webpack is
 ## Explain what the concepts “entry” and “output” mean as relates to webpack
 ## Briefly explain what a development dependency is
