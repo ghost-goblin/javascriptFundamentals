@@ -60,3 +60,44 @@ let User = class MyClass {
 new User().sayHi(); // works, shows MyClass definition
 console.log(MyClass); // error, MyClass name isn't visible outside of the class
 ```
+or you can create classes dynamically:
+```js
+function makeClass(phrase) {
+  // declare a class and return it
+  return class {
+    sayHi() {
+      console.log(phrase);
+    }
+  };
+}
+
+// Create a new class
+let User = makeClass("Hello");
+
+new User().sayHi(); // Hello
+```
+
+## Getters/Setters
+Classes may include getters/setters, computed properties, etc. This works by creating getters and setters in `User.prototype`.
+```js
+class User {
+    constructor(name) {
+        this.name = name;
+    }
+    get name() {
+        return this._name
+    }
+    set name(value) {
+        if (value.length < 4) {
+            console.log("The name is too short!");
+            return;
+        }
+        this._name = value;
+    }
+}
+
+let usr1 = new User("Hannah");
+let usr2 = new User("Jon");
+```
+
+## Computed Names […]
