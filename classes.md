@@ -131,3 +131,15 @@ new User().sayHi();
 JavaScript has a dynamic `this` and `this` depends on the context of the call. When passing object methods as callbacks, for instance to `setTimeout`, there’s a known problem: losing `this`. There are two approaches to fixing it:
 1. Pass a wrapper-function, such as `setTimeout(() => button.click(), 1000)`.
 2. Bind the method to object, e.g. in the constructor. Functions provide a built-in method `bind` that allows to fix `this`.
+```js
+let user = {
+  firstName: "Hannah"
+};
+
+function func() {
+  console.log(this.firstName);
+}
+
+let funcUser = func.bind(user);
+funcUser();
+```
