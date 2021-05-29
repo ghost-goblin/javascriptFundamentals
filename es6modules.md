@@ -67,6 +67,8 @@ Transpilers, or source-to-source compilers, are tools that read source code writ
 Allow us to write compile-to-JavaScript languages, like CoffeeScript, TypeScript, or ClojureScript;
 
 ## Briefly describe what a task runner is and how it’s used in frontend development
+Use `npm` to **automate** front-end development tasks such as image optimization, SASS compilation and running a local server.
+
 ## Describe how to write an npm automation script
 Add a `scripts` property to `package.json` with the command to run.
 ```js
