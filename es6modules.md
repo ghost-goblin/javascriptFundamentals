@@ -68,5 +68,13 @@ Allow us to write compile-to-JavaScript languages, like CoffeeScript, TypeScript
 
 ## Briefly describe what a task runner is and how it’s used in frontend development
 ## Describe how to write an npm automation script
+You can add a `scripts` property to your `package.json` with the command you wish you run.
+```js
+"scripts": {
+  "prostart": "./node_modules/protractor/bin/webdriver-manager start",
+  "proupdate": "./node_modules/protractor/bin/webdriver-manager update"
+}
+```
+
 ## Explain one of the main benefits of writing code in modules
 ## Explain “named exports” and “default exports”
