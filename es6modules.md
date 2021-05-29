@@ -75,6 +75,6 @@ Add a `scripts` property to `package.json` with the command to run.
   "proupdate": "./node_modules/protractor/bin/webdriver-manager update"
 }
 ```
-Run these by typing `npm run prostar` or `npm run proupdate` which would look for those commands in `package.json`.
+Run these by typing `npm run prostart` or `npm run proupdate` which would look for those commands in `package.json`.
 ## Explain one of the main benefits of writing code in modules
 ## Explain “named exports” and “default exports”
