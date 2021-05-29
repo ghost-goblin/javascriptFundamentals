@@ -51,6 +51,9 @@ When you go in production, if you type `npm install` and the folder contains a `
 You need to set the `--production` flag to avoid installing those development dependencies.
 
 ## Explain what “transpiling code” means and how it relates to frontend development
+Transpilers, or source-to-source compilers, are tools that read source code written in one programming language, and produce the equivalent code in another language.
+Allow us to write compile-to-JavaScript languages, like CoffeeScript, TypeScript, or ClojureScript;
+
 ## Briefly describe what a task runner is and how it’s used in frontend development
 ## Describe how to write an npm automation script
 ## Explain one of the main benefits of writing code in modules
