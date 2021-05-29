@@ -30,6 +30,19 @@ Webpack is used to compile JavaScript modules. When installing a package that wi
 If you're installing a package for development purposes (e.g. a linter, testing libraries, etc.) then you should use `npm install --save-dev`.
 
 ## Explain what the concepts “entry” and “output” mean as relates to webpack
+An entry point indicates which module webpack should use to begin building out its internal dependency graph. webpack will figure out which other modules and libraries that entry point depends on (directly and indirectly). By default its value is `./src/index.js`, but you can specify a different (or multiple entry points) by setting an entry property in `webpack.config.js`.
+```js
+const path = require('path');
+
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+};
+```
+
 ## Briefly explain what a development dependency is
 ## Explain what “transpiling code” means and how it relates to frontend development
 ## Briefly describe what a task runner is and how it’s used in frontend development
