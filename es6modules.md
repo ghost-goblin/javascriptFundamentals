@@ -26,7 +26,8 @@ npm install <package_name>
 ```
 
 ## Describe what a JavaScript module bundler like webpack is
-Webpack is used to compile JavaScript modules
+Webpack is used to compile JavaScript modules. When installing a package that will be bundled into your production bundle, you should use `npm install --save`.
+If you're installing a package for development purposes (e.g. a linter, testing libraries, etc.) then you should use `npm install --save-dev`.
 
 ## Explain what the concepts “entry” and “output” mean as relates to webpack
 ## Briefly explain what a development dependency is
