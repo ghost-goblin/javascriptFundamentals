@@ -42,6 +42,7 @@ module.exports = {
   },
 };
 ```
+The **output** property tells webpack where to emit the bundles it creates and how to name these files. It defaults to `./dist/main.js` for the main output file and to the `./dist` folder for any other generated file. You can configure this part of the process by specifying an output field in `webpack.config.js`.
 
 ## Briefly explain what a development dependency is
 ## Explain what “transpiling code” means and how it relates to frontend development
