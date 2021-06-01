@@ -92,6 +92,7 @@ export {
   functionOne,
   functionTwo
 }
+```
 and then import them...
 ```js
 import {functionOne, functionTwo} from './myModule'
