@@ -24,3 +24,5 @@ Do not create bloated interfaces ... meaning whenever you expose a module for ou
 Your code needs to receive the relevent methods for every function. High level modules shouldn't depend on low level modules, and should depend on abstractions.
 
 ## Explain what “tightly coupled” objects are and why we want to avoid them
+Tight coupling is when a group of classes are highly dependent on one another. When a class assumes too many responsibilities or gets spread out over many classes.
+Loose coupling is a paradigm that promotes single responsibility and seperation of concern. A loosely couples class can be tested independently of otger classes.
