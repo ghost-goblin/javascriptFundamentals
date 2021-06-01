@@ -21,5 +21,6 @@ Sometimes something that sounds right in natural language doesn't quite work in 
 Do not create bloated interfaces ... meaning whenever you expose a module for outside use, make sure only the bare essentials are required and the rest are optional.
 
 ### The Dependency Inversion Principle
+Your code needs to receive the relevent methods for every function. High level modules shouldn't depend on low level modules, and should depend on abstractions.
 
 ## Explain what “tightly coupled” objects are and why we want to avoid them
