@@ -9,6 +9,48 @@ A class or object or module should only have _one_ responsibility.
 > “Do one thing and do it well”
 
 Every function that you write should do exactly *one* thing and have a clearly defined goal.
+```js
+// Set up the circle and square factory functions to create new objects
+
+const circle = (radius) => {
+  const proto = {
+    type: 'Circle'
+  };
+  return Object.assign(Object.create(proto), {radius});
+};
+
+const square = (length) => {
+  const proto = {
+    type: 'Square'
+  };
+  return Object.assign(Object.create(proto), {length});
+};
+
+console.log(circle(13));
+console.log(square(7));
+
+const shapes = [
+  circle(2),
+  circle(8),
+  square(5)
+]
+
+
+const areaCalculator = (s) => {
+  const proto = {
+    sum() { //logic to sum
+    },
+    output() {
+      console.log(this.sum);
+
+    }
+  };
+  return Object.assign(Object.create(proto), {shapes: s})
+
+};
+
+console.log(areaCalculator(shapes));
+```
 
 ### The Open/Closed Principle
 JavaScript modules should be open to extension but closed to modification. If you want to extend a modules behaviour, you don't need to modify the existing code.
