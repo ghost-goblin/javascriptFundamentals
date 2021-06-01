@@ -18,6 +18,7 @@ There is one easy test to follow, if you have to open up your JS module and make
 Sometimes something that sounds right in natural language doesn't quite work in code. For example, in mathematics, a `square` is a `rectangle`, and makes you want to model this based on inheritance. However, in your code, if you are deriving your square from your rectangle, using the `setHeight` and `setWidth` properties, the reference point of `rectangle` doesn't make any sense.
 
 ### The Interface Segregation Principle
+Do not create bloated interfaces ... meaning whenever you expose a module for outside use, make sure only the bare essentials are required and the rest are optional.
 
 ### The Dependency Inversion Principle
 
