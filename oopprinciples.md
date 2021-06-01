@@ -25,4 +25,4 @@ Your code needs to receive the relevent methods for every function. High level m
 
 ## Explain what “tightly coupled” objects are and why we want to avoid them
 Tight coupling is when a group of classes are highly dependent on one another. When a class assumes too many responsibilities or gets spread out over many classes.
-Loose coupling is a paradigm that promotes single responsibility and seperation of concern. A loosely couples class can be tested independently of otger classes.
+Loose coupling is a paradigm that promotes single responsibility and seperation of concern. A loosely couples class can be tested independently of other classes.
