@@ -5,6 +5,9 @@ A class or object or module should only have _one_ responsibility.
 ## Briefly explain the additional SOLID principles
 **SOLID** is a _mnemonic_ acronym referring to a collection of design principles. JavaScript is a prototype-based, dynamically typed language, blending concepts from object-oriented and functional programming paradigms.
 ### The Single Responsibility Principle
+
+> “Do one thing and do it well”
+
 ### The Open/Closed Principle
 ### The Liskov Substitution Principle
 ### The Interface Segregation Principle
