@@ -8,9 +8,15 @@ A class or object or module should only have _one_ responsibility.
 
 > “Do one thing and do it well”
 
+Every function that you write should do exactly *one* thing and have a clearly defined goal.
+
 ### The Open/Closed Principle
+JavaScript modules should be open to extension but closed to modification. If you want to extend a modules behaviour, you don't need to modify the existing code.
+
 ### The Liskov Substitution Principle
+
 ### The Interface Segregation Principle
+
 ### The Dependency Inversion Principle
 
 ## Explain what “tightly coupled” objects are and why we want to avoid them
