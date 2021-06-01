@@ -12,6 +12,7 @@ Every function that you write should do exactly *one* thing and have a clearly d
 
 ### The Open/Closed Principle
 JavaScript modules should be open to extension but closed to modification. If you want to extend a modules behaviour, you don't need to modify the existing code.
+There is one easy test to follow, if you have to open up your JS module and make a modification in order to extend it, you have failed the test.
 
 ### The Liskov Substitution Principle
 
