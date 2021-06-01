@@ -15,6 +15,7 @@ JavaScript modules should be open to extension but closed to modification. If yo
 There is one easy test to follow, if you have to open up your JS module and make a modification in order to extend it, you have failed the test.
 
 ### The Liskov Substitution Principle
+Sometimes something that sounds right in natural language doesn't quite work in code.
 
 ### The Interface Segregation Principle
 
