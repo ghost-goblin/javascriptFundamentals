@@ -80,4 +80,21 @@ Add a `scripts` property to `package.json` with the command to run.
 Run these by typing `npm run prostart` or `npm run proupdate` which would look for those commands in `package.json`.
 ## Explain one of the main benefits of writing code in modules
 Code reuse .... wrap your code in factory functions _or use the modular pattern_, this enables your code to be cleanly separated, makes maintaining your code much easier and less error prone. You can use export constructors, classes and factory functions from your modules.
+
 ## Explain “named exports” and “default exports”
+There are 2 different ways to use exports in your code:
+```js
+export default myName
+```
+If you want to export multiple functions use named exports with this pattern:
+```js
+export {
+  functionOne,
+  functionTwo
+}
+and then import them...
+```js
+import {functionOne, functionTwo} from './myModule'
+```
+```
+
