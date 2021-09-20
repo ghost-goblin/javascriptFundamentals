@@ -11,7 +11,7 @@ A `package.json` file:
 3. Makes your build reproducible, and therefore easier to share with other developers
 4. A `package.json` file must contain `name` and `version` fields.
 
-You can create a `package.jso`n file by running a CLI questionnaire or creating a default `package.json` file.
+You can create a `package.json` file by running a CLI questionnaire or creating a default `package.json` file.
 ```sh
 cd /path/to/package
 ```
