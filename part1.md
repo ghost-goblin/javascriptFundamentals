@@ -16,10 +16,12 @@ let message = 'Hello';
 - `const`
 
 ## 3. Which one should you use when?
-- `var`is **global-scoped** / **function-scoped** and declartions are processed when the _function or script starts_. This is called **hoisting**.
-JavaScript **hoists** the variable declarion to the top of the function block. `var` variables are hoisted to the top of their scope and initialized with a value of `undefined`
-- `let`provides **block-scoping**. Just like  `var`, `let` declarations are hoisted to the top. Unlike `var` which is initialized as `undefined`, the `let` keyword is not initialized. So if you try to use a let variable before declaration, you'll get a `Reference Error`.
-- `const`is immutable and will throw an error if an attempt is made to change its value after it has been declared.
+* `var` declarations are **globaly-scoped** or **function-scoped**, and declartions are processed when the _script or function starts_. This is called **hoisting**.
+JavaScript **hoists** the variable declarion to the top of the function block. `var` variables are hoisted to the top of their scope and initialized with a value of `undefined`. `var` variables can be updated and re-declared within its scope.
+
+* `let` declarations provides **block-scoping**, `{}`, and are hoisted to the top of their scope. Unlike `var` which is initialized as `undefined`, the `let` keyword is not initialized. So if you try to use a `let` variable before declaration, you'll get a `Reference Error`. `let` variables can be updated but not re-declared.
+
+* `const` variables are **immutable** and can _neither be updated nor re-declared_. `const` is **block scoped** and must be initialized during declaration.
 
 Here is a link to [Hacker Noon](https://medium.com/hackernoon/why-you-shouldnt-use-var-anymore-f109a58b9b70) on why we shouldn't use var anymore.
 
