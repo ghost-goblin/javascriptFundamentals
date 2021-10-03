@@ -17,7 +17,7 @@ let message = 'Hello';
 
 ## 3. Which one should you use when?
 - `var`is **global-scoped** / **function-scoped** and declartions are processed when the _function or script starts_. This is called **hoisting**.
-JavaScript **hoists** the variable declarion to the top of the function block.
+JavaScript **hoists** the variable declarion to the top of the function block. `var` variables are hoisted to the top of their scope and initialized with a value of `undefined`
 - `let`provides **block-scoping**.
 - `const`is immutable and will throw an error if an attempt is made to change its value after it has been declared.
 
