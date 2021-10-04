@@ -5,5 +5,3 @@
 * It prevents certain types of bugs, including a few catastrophic ones
 * It saves you time
 * It makes your code better
-* It’s easy
-* It’ll get you laid more
