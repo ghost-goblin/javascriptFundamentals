@@ -20,7 +20,7 @@ var new_array = arr.map(function callback(element, index, array) {
 # `filter()`
 ### Syntax
 ```js
-array.filter(function(currentValue, index /*optional*/, arr), thisValue);
+array.filter(function(currentValue /*required*/, index /*optional*/, arr /*optional*/), thisValue);
 ```
 The `filter()` method takes each element in an array and applies a conditional statement against it. If the condition returns `true`, the element gets pushed to the output array.
 ```js
