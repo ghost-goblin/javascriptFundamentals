@@ -18,6 +18,10 @@ var new_array = arr.map(function callback(element, index, array) {
 ````
 
 # `filter()`
+### Syntax
+```js
+array.filter(function(currentValue, index /*optional*/, arr), thisValue);
+```
 The `filter()` method takes each element in an array and applies a conditional statement against it. If the condition returns `true`, the element gets pushed to the output array.
 ```js
 const numbers = [1,2,3,4];
