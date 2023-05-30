@@ -21,4 +21,4 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 * [ES6 Modules](es6modules.md)
 * [OOP Principles](oopprinciples.md)
 * [Linting](linting.md)
-* [Form Validation](form-validtion.md)
+* [Form Validation](form-validation)
