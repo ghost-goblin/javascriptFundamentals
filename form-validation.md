@@ -60,9 +60,9 @@ For example; `/\d\s\w/` will produce a match for the `1 w` and the `5    p` patt
 ## How to create Regular Expressions?
 ```js
 // store in a variable
-var reg = /[a-z]/gi;
+const reg = /[a-z]/gi;
 //OR
-var reg2 = new RegExp(/[a-z]/, 'i');
+const reg2 = new RegExp(/[a-z]/, 'i');
 ```
 ## Example
 
