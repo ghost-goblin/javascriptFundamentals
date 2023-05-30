@@ -1,7 +1,6 @@
 # Form Validation With JavaScript
 
-##Regular Expressions (RegEx)
-
+## Regular Expressions (RegEx)
 Allows us to check a series of characters for 'matches'. Use the [regex101 online tool](https://regex101.com/) to create test patterns.
 
 ![Form Validator](https://media3.giphy.com/media/c1Zf0R8KvtSCI/giphy.gif?cid=ecf05e478zvtncg1wts2ybxbbsg3qz09gxhcefiuxxj2xgvi&rid=giphy.gif)
