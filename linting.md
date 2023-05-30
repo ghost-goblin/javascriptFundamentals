@@ -9,5 +9,8 @@
 * It makes your code better
 
 ## Which problems can linting prevent?
++ Linting is important to reduce errors and improve the overall quality of your code
 
 ## Why should you use prettier?
++ Prettier assists you in keeping your coding consistent
++ Improved readability
