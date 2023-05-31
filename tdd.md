@@ -15,3 +15,4 @@
 
 + `echo > capitalize.js && echo > capitalize.test.js`
 + `npm run test`
++ **Optional**: `echo node_modules/ >> .gitignore`
