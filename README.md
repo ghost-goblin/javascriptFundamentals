@@ -19,7 +19,7 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 * [Factory Functions & the Module Pattern](factory-functions.md)
 * [Classes](classes.md)
 * [ES6 Modules](es6modules.md)
-* [Webpack(webpack.md)]
+* [Webpack](webpack.md)
 * [OOP Principles](oopprinciples.md)
 * [Linting](linting.md)
 * [Form Validation](form-validation.md)
