@@ -9,3 +9,4 @@
   "test": "jest"
 }
 ```
++ `npm add --dev babel-jest`
