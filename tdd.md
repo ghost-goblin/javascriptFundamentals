@@ -10,3 +10,5 @@
 }
 ```
 + `npm add --dev babel-jest`
+
+> Jest will treat any file that ends in `.test.js` or `.spec.js` as a test file. So, if you have a file called `divide.js`, you can put a `divide.test.js` next to it in the same directory and Jest will pick it up when it runs.
