@@ -11,7 +11,6 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 * [Part 3](part3.md)
 * [Part 4](part4.md)
 * [DOM Manipulation](dom.md)
-* [Asynchronous JavaScript and APIs](asynchronous.md)
 * [Part 5](part5.md)
 
 ### [The JavaScript Course](https://www.theodinproject.com/courses/javascript)
@@ -24,4 +23,5 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 * [OOP Principles](oopprinciples.md)
 * [Linting](linting.md)
 * [Form Validation](form-validation.md)
+* [Asynchronous JavaScript and APIs](asynchronous.md)
 * [Test Driven Development](tdd.md)
