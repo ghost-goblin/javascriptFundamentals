@@ -18,7 +18,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-};
+  mode: 'development' };
 ```
 **OPTIONAL** Add a `README.md` file: `echo # New Site Title >> README.md`
 
