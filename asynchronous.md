@@ -27,3 +27,62 @@ const fetchData = () => {
 
 fetchData();
 ```
+
+Example sending a `POST` request to the GraphQL Shopify Storefront API(https://shopify.dev/docs/api/storefront) endpoint:
+
+```js
+require('dotenv').config();
+const express = require('express');
+const fetch = require('node-fetch');
+const app = express();
+const port = 3000;
+
+const { SHOPIFY_STORE_URL, SHOPIFY_ACCESS_TOKEN } = process.env;
+
+app.get('/products', async (req, res) => {
+  try {
+    const graphqlEndpoint = `https://${SHOPIFY_STORE_URL}/api/2024-04/graphql.json`;
+    const query = `
+      {
+        products(first: 5) {
+          edges {
+            node {
+              id
+              title
+              handle
+              description
+              variants(first: 1) {
+                edges {
+                  node {
+                    id
+                    title
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    `;
+
+    const response = await fetch(graphqlEndpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Shopify-Storefront-Access-Token': SHOPIFY_ACCESS_TOKEN,
+      },
+      body: JSON.stringify({ query }),
+    });
+
+    const data = await response.json();
+    res.json(data);
+  } catch (error) {
+    console.error('Error fetching products:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
+app.listen(port, () => {
+  console.log(`Server is listening at http://localhost:${port}`);
+});
+'''
