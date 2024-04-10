@@ -43,8 +43,6 @@ npm i dotenv
 npm i node-fetch@2
 ```
 
-The `server.js` file:
-
 ```js
 require('dotenv').config();
 const fetch = require('node-fetch');
