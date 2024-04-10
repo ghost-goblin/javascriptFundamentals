@@ -28,7 +28,7 @@ const fetchData = () => {
 fetchData();
 ```
 
-Example sending a `POST` request to the GraphQL Shopify Storefront API(https://shopify.dev/docs/api/storefront) endpoint:
+Example sending a `POST` request to the GraphQL Shopify [Storefront API](https://shopify.dev/docs/api/storefront) endpoint:
 
 ```js
 require('dotenv').config();
@@ -85,4 +85,4 @@ app.get('/products', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`);
 });
-'''
+```
