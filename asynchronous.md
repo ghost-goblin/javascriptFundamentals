@@ -47,6 +47,59 @@ The `server.js` file:
 
 ```js
 require('dotenv').config();
+const fetch = require('node-fetch');
+const { SHOPIFY_STORE_URL, SHOPIFY_ACCESS_TOKEN } = process.env;
+
+const fetchProducts = () => {
+    const query = `
+      {
+        products(first: 5) {
+          edges {
+            node {
+              id
+              title
+              handle
+              description
+              variants(first: 1) {
+                edges {
+                  node {
+                    id
+                    title
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    `;
+    fetch(`https://${SHOPIFY_STORE_URL}/api/2024-04/graphql.json`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Shopify-Storefront-Access-Token': SHOPIFY_ACCESS_TOKEN,
+        },
+        body: JSON.stringify({ query }),
+      })
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(response) {
+        console.log(response);
+    })
+    .catch(function(err) {
+        console.log('Error');
+    });
+
+};
+
+fetchProducts();
+```
+
+//OR//
+
+```js
+require('dotenv').config();
 const express = require('express');
 const fetch = require('node-fetch');
 const app = express();
