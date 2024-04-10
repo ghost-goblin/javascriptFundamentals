@@ -30,6 +30,21 @@ fetchData();
 
 Example sending a `POST` request to the GraphQL Shopify [Storefront API](https://shopify.dev/docs/api/storefront) endpoint:
 
+```sh
+# create the app
+mkdir app-name && cd app-name
+npm init -y
+echo > server.js 
+echo > .gitignore 
+echo > .env 
+echo > README.md
+npm install express
+npm i dotenv
+npm i node-fetch@2
+```
+
+The `server.js` file:
+
 ```js
 require('dotenv').config();
 const express = require('express');
