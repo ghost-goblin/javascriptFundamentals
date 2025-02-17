@@ -1,10 +1,11 @@
-# javascriptFundamentals
+# JavaScript
+
 🎯 My personal repository detailing the fundamentals of JavaScript
 
 Hi everyone 👋
 
 
-I am current going throught the JS fundamentals section at the [The Odin Project](https://www.theodinproject.com/courses/foundations#javascript-basics) and thought it might be useful to document my learning.
+I am current going throught the JS fundamentals section at the [The Odin Project](https://www.theodinproject.com/) and thought it might be useful to document my learning.
 
 * [Part 1](part1.md)
 * [Part 2](part2.md)
@@ -13,7 +14,7 @@ I am current going throught the JS fundamentals section at the [The Odin Project
 * [DOM Manipulation](dom.md)
 * [Part 5](part5.md)
 
-### [The JavaScript Course](https://www.theodinproject.com/courses/javascript)
+### The JavaScript Course
 
 * [Objects & Object Constructors](objects.md)
 * [Factory Functions & the Module Pattern](factory-functions.md)
